@@ -1,0 +1,102 @@
+.wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.paint-wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.canvas {
+	border: 1px solid black;
+	width: 560px;
+	height: 360px;
+}
+
+.colors-wrapper {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+.line-wrapper {
+	flex-direction: column;
+	display: flex;
+	justify-content: space-evenly;
+	height: 200px;
+	align-items: center;
+}
+
+.line-item {
+	cursor: pointer;
+	background-color: black;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.color-item {
+	box-sizing: border-box;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	font-size: 22px;
+	text-align: center;
+}
+
+.blue {
+	background-color: blue;
+}
+.red {
+	background-color: red;
+}
+.pink {
+	background-color: pink;
+}
+.green {
+	background-color: green;
+}
+.yellow {
+	background-color: yellow;
+}
+.purple {
+	background-color: purple;
+}
+.black {
+	background-color: black;
+	border: 5px solid darkgrey;
+}
+.brown {
+	background-color: brown;
+}
+.multicolor {
+	background-color: black;
+	color: white;
+}
+
+.big-medium {
+	height: 23px;
+	width: 23px;
+}
+
+.medium {
+	height: 16px;
+	width: 16px;
+}
+
+.small {
+	height: 10px;
+	width: 10px;
+}
+
+.very-small {
+	height: 5px;
+	width: 5px;
+	background-color: darkgrey;
+}

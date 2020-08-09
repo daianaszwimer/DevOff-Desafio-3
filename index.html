@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>Daiu</title>
+	<script src="script.js"></script>
+</head>
+<body onload="draw()">
+<div class="wrapper">
+	<h2>A dibujar!</h2>
+	<div class="paint-wrapper">
+		<div class="line-wrapper">
+			<div class="line-item" id="big" onclick="chooseLine(10)"></div>
+			<div class="line-item big-medium" id="big-medium" onclick="chooseLine(8)"></div>
+			<div class="line-item medium" id="medium" onclick="chooseLine(6)"></div>
+			<div class="line-item small" id="small" onclick="chooseLine(4)"></div>
+			<div class="line-item very-small" id="very-small" onclick="chooseLine(2)"></div>
+		</div>
+		<canvas id="canvas" class="canvas" width="560" height="360"></canvas>
+		<div class="colors-wrapper">
+			<div class="color-item black" id="black" onclick="chooseColor('black')"></div>
+			<div class="color-item blue" id="blue" onclick="chooseColor('blue')"></div>
+			<div class="color-item brown" id="brown" onclick="chooseColor('brown')"></div>
+			<div class="color-item red" id="red" onclick="chooseColor('red')"></div>
+			<div class="color-item pink" id="pink" onclick="chooseColor('pink')"></div>
+			<div class="color-item purple" id="purple" onclick="chooseColor('purple')"></div>
+			<div class="color-item green" id="green" onclick="chooseColor('green')"></div>
+			<div class="color-item yellow" id="yellow" onclick="chooseColor('yellow')"></div>
+			<div class="color-item multicolor" id="multicolor" onclick="chooseColor('multicolor')">?</div>
+			<img src="erase-svgrepo-com.svg" id="white" alt="Delete" onclick="chooseColor('white')" class="color-item"/>
+		</div>
+	</div>
+</div>
+</body>
+</html>
