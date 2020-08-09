@@ -100,3 +100,12 @@
 	width: 5px;
 	background-color: darkgrey;
 }
+.save {
+	width: 200px;
+	height: 50px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	cursor: pointer;
+	background-color: burlywood;
+}
